@@ -1,11 +1,29 @@
 class BankAccount:
+    def __init__(self, balance):
+        self.balance = current_balance
+
+    def deposit(self, added_to_balance):
+        print("The previous balance of {}, with the deposit, brings the new balance to {}.".format(self.balance, added_to_balance))
+
+    def withdraw(self, withdrawn_amount):
+        print("The amount I withdrew was {}.")
+
+    def accumulate_interest(self, )
   pass
 
-class ChildrensAccount:
+class ChildrensAccount(BankAccount):
   pass
 
 class OverdraftAccount:
   pass
+
+
+
+
+
+
+
+
 
 basic_account = BankAccount()
 basic_account.deposit(600)
